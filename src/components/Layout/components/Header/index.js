@@ -138,10 +138,10 @@ function Header() {
           >
             {currentUser ? (
               <Image
-                src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f475993531c5ebf9a1eeb435b39a99aa~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=8566cb25&x-expires=1759323600&x-signature=M8MHKs2%2FNlF67Dmyj%2BBeRxCwX%2Bg%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=c1333099&idc=my2"
+                src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png"
                 className={cx("user-avatar")}
                 alt="Nguyen Van A"
-                fallback="src=https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png"
+                // fallback="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png"
               />
             ) : (
               <button className={cx("more-btn")}>
